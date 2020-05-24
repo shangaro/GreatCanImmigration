@@ -1,0 +1,36 @@
+<mat-checkbox [(ngModel)]="checked" value="checked" color="primary">Checkbox label</mat-checkbox>
+   <button mat-raised-button (click)="onClick($event)">Action</button>
+   <button mat-button [matMenuTriggerFor]="menuRef">
+       Trigger
+   </button>
+   
+   <mat-menu #menuRef="matMenu" x-position="after" y-position="below"
+             [overlapTrigger]="false">
+       <button mat-menu-item *ngFor="let item of items">
+           item
+       </button>
+   </mat-menu>
+
+   <mat-card>
+    <mat-card-header>
+        <img matCardAvatar src="../assets/images/avatars/avatar-1.png">
+        <mat-card-title>Product1</mat-card-title>
+        <mat-card-subtitle>Occaecat aliqua mollit officia velit consequat proident incididunt.</mat-card-subtitle>
+    </mat-card-header>
+    <img matCardImage src="../assets/images/products/pc/1-medium.png">
+    <mat-card-content>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam sint voluptatem obcaecati debitis perferendis, velit officia atque temporibus delectus, quos rem. Error, laudantium eos? Quos facere fugit quibusdam ut ex.
+    </mat-card-content>
+    <mat-card-actions align="start">
+        <button mat-icon-button color="accent">
+        <mat-icon>home</mat-icon>
+      </button>
+        <button mat-icon-button color="primary">
+          <mat-icon class="mat-18">share</mat-icon>
+        </button>
+        
+    </mat-card-actions>
+    
+</mat-card>
+
+  

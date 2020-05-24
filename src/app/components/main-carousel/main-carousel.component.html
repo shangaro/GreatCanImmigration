@@ -1,0 +1,21 @@
+
+<!-- [disabled]="disabled" (indexChange)="onIndexChange($event)" (swiperTransitionStart)="onSwiperEvent('transitionStart')" (swiperTransitionEnd)="onSwiperEvent('transitionEnd') -->
+
+<swiper  class="swiper-container" [config]="config" fxFlex="auto" fxShow="true" fxHide.lt-sm>
+    <div *ngFor="let slide of slides"class="swiper-slide">
+        <div fxLayout="column" fxLayoutAlign="center center">
+            <img [src]="slide.image" alt="">
+            <div class="slide-content">
+                <h1>{{slide.title}}</h1>
+                <h3>{{slide.subtitle}}</h3>
+                <a href="/home#CATEGORIES">Apply now</a>
+
+            </div>
+      </div>
+    </div>
+</swiper>
+
+
+
+  
+  

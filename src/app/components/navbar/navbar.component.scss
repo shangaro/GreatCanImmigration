@@ -1,0 +1,108 @@
+
+.top-toolbar {
+    color: white;
+    height:auto;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 2%, rgba(1,141,182,1) 16%, rgba(177,12,67,0.9420810560552346) 57%, rgba(2,0,36,1) 79%);
+    .mat-button{
+      padding-left:0;
+    }
+    
+  }
+  
+  .top-toolbar img {
+    margin-top:60px;
+    width: 120px;
+    border-radius: 50%;
+  }
+  .top-toolbar.header-logo{
+    text-transform: uppercase;
+  }
+  
+  .top-toolbar #twitter-logo {
+    height: 40px;
+    margin: 0 16px;
+  }
+  
+  .top-toolbar #twitter-logo:hover {
+    opacity: 0.8;
+  }
+  .contact-bar{
+    font-weight: 300;
+    font-size:15px;
+    .contact-bar-item{
+      display: inline-block;
+    }
+  }
+  .header-logo{
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .mat-sidenav.mat-drawer{
+    z-index:5;
+    
+  }
+  .sidenav{
+    width: 250px;
+    padding: 8px 16px;
+    position: fixed;
+    .close{
+        margin-left: 178px;
+    }
+    .divider{
+        margin: 8px 0;
+    }
+  }
+  .menu-expand-icon{
+    position: absolute;
+    right: -4px;
+    top: 8px;
+  }
+  
+  .menu-item{
+    text-transform:uppercase;
+    .mat-button{
+        width: 100%;
+        font-weight: 400;
+        text-transform: uppercase;
+        &.expanded{
+            .menu-expand-icon{
+                -webkit-transform: rotate(180deg);
+                -moz-transform: rotate(180deg);
+                transform: rotate(180deg);
+            }
+        }
+    }
+    .mat-button-wrapper{
+        padding-left: 16px;
+    }    
+  }
+  
+  .social-icon{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    fill: #8f8f8f;
+    outline: none;
+  }
+  
+  /******* Responsive *******/
+  // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575px) { 
+    .top-toolbar.mat-toolbar-row{
+        padding: 0;
+        display:flex;
+        flex-direction:row;
+        .top-menu{
+            margin-right: 0;
+            a{
+                min-width: 56px;
+            }
+        }
+        .sidenav-toggle{
+            min-width: 52px;
+        }
+        
+      }
+    }

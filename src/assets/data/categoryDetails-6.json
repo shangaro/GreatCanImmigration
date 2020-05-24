@@ -1,0 +1,39 @@
+{
+    "id":6,
+    "title":"Federal Skilled Trade Program",
+    "subTitle":"This economic immigration program is intended for candidates who are highly skilled in trades are outside Canada.",
+    "listCount":0,
+    "list":[
+        {
+            "title":"For work experience, a candidate must have at least two (2) years of full-time work experience within the last five (5) years before applying. A candidate should have a) valid job offer of full-time employment for at least a year or, have a certificate of qualification in the skilled trade issued by a Canadian provincial, territorial or federal authority. The work experience must be from below NOC:",
+            "content":
+            [
+                "Industrial, electrical and construction trades",
+                "maintenance and equipment operation trades",
+                "supervisors and technical jobs in natural resources, agriculture, and related production",
+                "processing, manufacturing, and utility supervisors and central control operators",
+                "chefs and cooks",
+                "butchers and bakers"
+
+            ]
+        },
+        {
+            "title":"Admissibility means that a candidate is admissible to Canada. To be admissible, a candidate has to prove that they:",
+            "content":
+            [
+                "are not involved in any organized crime,",
+                "possess no security threats to Canada,",
+                "have no medical reasons that would endanger public health and safety and cause excessive demand on health or social service",
+                "can financially stablish themselves,",
+                "have no misrepresentation,",
+                "have no inadmissible family member,",
+                "complies with all provisions of IRPA"
+
+            ]
+        }
+    ],
+    "hasTable":false,
+    "hasFootNote":false,
+    "hasAccordion":false,
+    "description":"The factors that play a role in this program are skilled trade work experience, education, language ability, proof of funds, admissibility, and assessment of trade by the province or territory.For education, there is no formal education requirement. But it’s always better to have education to rank higher among the candidates in Express Entry pool.For language ability, a candidate should have a minimum of CLB 5 in speaking and listening, and CLB 4 in reading and writing.For proof of funds, a candidate must proof that they have enough funds to settle themselves and their family members (if applicable) in Canada. This could be waved only if they are currently legally working in Canada or they secured a valid job offer with LMIA (if applicable) from an employer in Canada.The assessment of trades is normally done by the province or territory. A candidate may also require an employer in Canada to give experience and training.Kindly call us for one-one consultation to see if you are eligible to apply in Express Entry through Federal Skilled Trade Program."
+}

@@ -1,0 +1,44 @@
+<mat-sidenav-container class="mb-sidenav-container mat-elevation-z2">
+    <mat-sidenav mode="side"  opened fxShow="true" fxHide.lt-md> 
+      <mat-nav-list [disableRipple]="false" class="card-container">
+        <span mat-subheader> Immigration Services</span>
+        <mat-divider></mat-divider>
+        <mat-list-item *ngFor="let item of categories">
+          <a href="#" mat-button mat-line [routerLink]="['/services',item.id]" (click)="onClick($event)" routerLinkActive="router-link-active" >{{item.title}}</a>
+      </mat-list-item>
+        
+    </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content fxLayout="column">
+      <h3 class="title my-1 p-2">{{categoryDetail.title}}</h3>
+      <p class="subtitle my-1 p-2">{{categoryDetail.subTitle}}</p>
+      <div class="list mat-elevation-z2 my-1 p-2" *ngIf="'categoryDetail.listCount > 0'">
+        <mat-list  *ngFor="let item of categoryDetail.list" class="">
+          <p><b>{{item.title}}</b></p>
+          <mat-divider></mat-divider>
+          <mat-list-item *ngFor="let elem of item.content">
+              {{elem}}
+          </mat-list-item>
+        </mat-list>
+      </div>
+      <div class="tables" *ngIf="categoryDetail.hasTable">
+        <div class="table my-1 py-2" *ngFor="let table of categoryDetail.tables">
+          <p class="my-1 py-2"><b>{{table.title}}</b></p>
+          <app-mat-table [displayedColumns]="table.displayedColumns" [matTableItems]="table.items"></app-mat-table>
+        </div>
+      </div>
+      
+      <div class="accordion mat-elevation-z2 my-1 p-2" *ngIf="categoryDetail.hasAccordion">
+        <p><b>{{categoryDetail.accordion.title}}</b></p>
+        <mat-expansion-panel [hideToggle]="false" *ngFor="let panel of categoryDetail.accordion.panels">
+          <mat-expansion-panel-header>{{panel.header}}</mat-expansion-panel-header>
+          {{panel.details}}
+        </mat-expansion-panel>
+      </div>
+      <p class="description p-2 m-2">{{categoryDetail.description}}</p>
+      <p *ngIf="categoryDetail.hasFootNote" class="footNote py-2 my-1"><b>Note: </b>{{categoryDetail.footNote}}</p>
+      
+      <a href="" mat-button backgroundColor="primary" class="float" color="primary"(click)="goBack()">Back</a>
+      
+     </mat-sidenav-content>
+</mat-sidenav-container>

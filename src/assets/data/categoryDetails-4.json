@@ -1,0 +1,44 @@
+{
+    "id":4,
+    "title":"Emergency Assistance",
+    "subTitle":"Emergency Assistance – while detained at the port of entry",
+    "hasFootNote":false,
+    "listCount":3,
+    "list":[
+        {
+            "title":"How is detention held?",
+            "content":
+            [
+                "You might be held at CBSA at the port of entry land crossing, airport, etc.",
+                "You will then be shifted to immigration holding center.",
+                "CBSA will make arrangements for holding your children in separate housing. Arrangements will be made for visitors to visit you."
+
+            ]
+        },
+        {
+            "title":"Your rights, while detained, are as follows:",
+            "content":
+            [
+                "You have the right to be represented by RCIC or lawyer.",
+                "You will be informed of the reasons for detention.",
+                "You can contact your embassy or representative of your country’s consulate.",
+                "You can request for an interpreter on your detention review.",
+                "You can get medical treatment if you have a medical condition."
+
+            ]
+        },
+        {
+            "title":"Detention review process:",
+            "content":
+            [
+                "CBSA might release you before first detention review if they feel there are no concerns by posting a bond.",
+                "First detention review is within forty-eight (48) hours or as soon as possible at the Immigration and Refugee Board (IRB).",
+                "The next one is within seven (7) days at the IRB.",
+                "If you are held again, the next review will be after the seven-day review at least once every thirty (30) days.",
+                "You may ask for an early review if you believe you can prove that you are not a harm to Canada."
+            ]
+        }
+    ],
+    "description":"If you are detained at the port of entry and you need legal assistance to get out of detention, we can help you with that. Canadian Border Services Agency(CBSA) detains people if they consider completing an examination, or are not satisfied with your identity, that you are inadmissible in Canada, possess danger to the public, possess security threats or have violated human and international rights, possess serious criminality or were involved in organized crimes.While you are being held, you will be treated with respect at all times. The CBSA also detains children under eighteen (18) years. If CBSA decides to hold children, they will make good arrangements in the best interest of the child and they might allow one parent to be with them. You will be informed about legal rights and informed about your case status. You can appoint a registered Canadian immigration consultant (RCIC) to help you.Release from detention requires a deposit, which is normally returned within six (6) to eight (8) weeks, or a guarantee by a guarantor stating they will pay a certain fee if you don’t respect conditions of your release. Breaching of conditions will result in loss of money by the guarantor and you will be returned to the detention center.Being held in Canada at your first visit or any visit is not an ideal situation. With the right representation from RCIC, you can be assured that you are in safe hands. We can discuss your situation with the CBSA officer on your behalf, get exact details of how they are not satisfied and we can expedite on meeting requirements so you can be free from detention.Please feel free to contact us right away if you or a person or you know someone who is detained. We will work with you to get you out quickly."
+
+}

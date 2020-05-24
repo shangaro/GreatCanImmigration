@@ -1,0 +1,87 @@
+
+#CATEGORIES{
+    .card-container{
+        .category{
+            padding:30px 0;
+           
+            .mat-button{
+                display:inline-block;
+                white-space: pre-wrap;
+                flex-grow:1;
+                img{
+                    margin-bottom: 15px;
+                }
+            
+            }
+         }
+    }   
+}
+
+#TEAMS{
+    background-color: #1a1a1a;
+    .col-md-3{
+        text-align: center;
+        .author-img{
+            border: 2px solid #129CF3;
+            border-radius: 50%;
+            padding: 3px;
+            margin-top: 45px;
+            width:60%;
+        }
+    }
+   
+    .author-content{
+        font-size:inherit;
+        padding:50px 0;
+        color:#fff;
+    }
+    
+}
+
+#COUNTER{
+    background-image: url(../../../assets/images/countries/sidebar-canada1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+    .counter-overlay{
+        padding:120px 0;
+        margin:90px 0;
+        background-color:rgba(0.31,0.31,0.31,0.6);
+        color:#fff;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        .counter-item{
+            // display:flex;
+            // flex-grow: 1;
+            // flex-direction:column;
+            // align-items: center;
+            // justify-content: space-around;
+            .mat-icon{
+                margin-bottom: 30px;
+                font-size:50px;
+                color:#0bec0b;
+                line-height: 50px;
+                height: 50px;
+                width: 50px;
+                vertical-align: middle;
+                // vertical-align: middle;
+            }
+            span{
+                font-size:35px;
+            }
+            p{
+                font-size:20px;
+            }
+    
+        }
+    }
+    
+}
+
+
+

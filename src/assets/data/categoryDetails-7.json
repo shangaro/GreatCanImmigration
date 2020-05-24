@@ -1,0 +1,28 @@
+{
+    "title":"Federal Skilled Worker Program",
+    "subTitle":"The federal skilled worker program is an immigration program targeted for skilled persons who are looking to immigrate to Canada.",
+    "hasTable":true,
+    "tables":
+    [
+        {
+            "title":"The skilled persons for Federal Skilled Worker Program are assessed based on selection standards of education, experience, age, language abilities, and adaptability and normally require to meet 67/100 points.",
+            "displayedColumns":["id","standard","points"],
+            "items":
+            [
+                {"id":1,"standard":"Language","points":28},
+                {"id":2,"standard":"Education","points":25},
+                {"id":3,"standard":"Work Experience","points":15},
+                {"id":4,"standard":"Age","points":12},
+                {"id":5,"standard":"Arranged employment in Canada","points":10},
+                {"id":6,"standard":"Adaptability","points":10},
+                {"id":7,"standard":"Total Points","points":100}
+
+
+
+            ]
+        }
+    ],
+    
+    "description":"Once 67 points are met, you would be eligible to apply in the Express Entry pool. Many times province pick candidates from the express entry pool.Kindly call us for one-one consultation to see if you are eligible to apply in Express Entry through Federal Skilled Worker Program."
+
+}

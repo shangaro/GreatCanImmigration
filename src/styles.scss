@@ -1,1 +1,368 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~swiper/css/swiper.min.css';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+
+$primary:blue;
+mat-card{
+    max-width: 480px;
+}
+
+body{
+  font-family: Roboto,sans-serif;
+  font-size: 18px;
+  position: relative;
+  color: #333;
+  font-weight:300;
+  line-height:28px;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // display:flex;
+  // flex-direction: column;
+}
+
+*{
+  margin: 0px;
+  padding:0px;
+}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 8px 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  // spacer and divider
+
+  .spacer {
+    flex: 1;
+  }
+  .divider{
+    margin:8px 0;
+  }
+
+  .separator-20{
+    padding:20px 0;
+    margin:10px 0;
+  }
+  .separator-10{
+    padding:10px 0;
+    margin:10px 0;
+  }
+
+  
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  svg.material-icons {
+    height: 24px;
+    width: auto;
+  }
+
+  svg.material-icons:not(:last-child) {
+    margin-right: 8px;
+  }
+
+  .card svg.material-icons path {
+    fill: #888;
+  }
+
+
+ 
+
+  .card {
+    border-radius: 4px;
+    border: 1px solid #eee;
+    background-color: #fafafa;
+    margin: 0 8px 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-align:center;
+  }
+
+  .card-container .card:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .card.card-small {
+    height: 16px;
+    width: 168px;
+  }
+
+  .card-container .card:not(.highlight-card) {
+    cursor: pointer;
+    display:flex;
+    flex-direction:row;
+  }
+
+  .card-container .card:not(.highlight-card):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 17px rgba(black, 0.35);
+  }
+
+  .card-container .card:not(.highlight-card):hover .material-icons path {
+    fill: rgb(105, 103, 103);
+  }
+
+  .card.highlight-card {
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    border: none;
+    width: auto;
+    min-width: 30%;
+    position: relative;
+  }
+
+  .card.card.highlight-card span {
+    margin-left: 60px;
+  }
+
+  svg#rocket {
+    width: 80px;
+    position: absolute;
+    left: -10px;
+    top: -24px;
+  }
+
+  svg#rocket-smoke {
+    height: calc(100vh - 95px);
+    position: absolute;
+    top: 10px;
+    right: 180px;
+    z-index: -10;
+  }
+  a{
+    color:#333;
+    text-decoration: none;
+    transition: all 1s;
+    --moz-transition: all 1s;
+    --webkit-transition:all 1s;
+    --o-transition:all 1s;
+    
+  }
+  a:hover,
+  a:active {
+    color: #5ebd76;
+    
+    
+
+  }
+
+  
+  .circle-link {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 8px;
+    background-color: white;
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 1s ease-out;
+  }
+
+  .circle-link:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  footer {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+  }
+
+  footer a {
+    display: flex;
+    align-items: center;
+  }
+
+  /* ============= Generic CSS ============== */
+
+.section-title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  
+}
+.section-title h2 {
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #129CF3;
+  margin-left: -30px;
+}
+
+
+.section-title p {
+  color: #333;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.left-feature-item h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+}
+.left-feature-item p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.left-feature-item {
+  position: relative;
+  padding-right: 90px;
+  margin-bottom: 65px;
+  text-align: right;
+  margin-top: 35px;
+}
+.right-feature-item {
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 65px;
+  margin-top: 35px;
+  text-align: left;
+}
+.right-feature-item-icon {
+  position: absolute;
+  left: 0;
+  top: -8px;
+  font-size: 40px;
+  color: #129CF3;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  
+}
+.right-feature-item h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+  
+  
+}
+.right-feature-item p {
+
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.center-feature-item {
+  position: relative;
+  margin-bottom: 65px;
+  margin-top: 35px;
+  text-align: center;
+}
+.center-feature-item h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+  
+  
+}
+.center-feature-item p {
+
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+
+//mat css
+.mat-icon.caret{
+  width: 14px;
+}
+.mat-icon.mat-icon-sm{
+  font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    width: 18px;
+    vertical-align: middle;
+}
+
+
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+    .card:not(.highlight-card) {
+      height: auto;
+      margin: 8px 0;
+    }
+
+    .card.highlight-card span {
+      margin-left: 72px;
+    }
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+
+   
+
+   
+  
+}

@@ -1,0 +1,148 @@
+{
+    "title":"Self Employed Person",
+    "subTitle":"Permanent Residency (P.R.) through Self Employed Person",
+    "listCount":2,
+    "list":[
+        {
+            "title":"You might be eligible to receive P.R. through a self-employed person if you have been:",
+            "content":
+            [
+                "Self-employed for two or more years working in cultural activities or participated at a world-class level in cultural activities.",
+                "Self-employed for two years working in athletics, or participated at a world-class athletics.",
+                " Self-employed in the purchase and management of a farm."
+            ]
+        },
+        {
+            "title":"Some of the occupations that are eligible to apply are as follows:",
+            "content":
+            [
+                "Conservators and curators",
+                "Archivists, authors, and writers, editors, journalists, translators, terminologist, interpreters",
+                "Producers, directors, choreographers, filmmaker, record producer, television producer, conductors, composers, arrangers, musicians, singers, dancers,actors and comedians",
+                "Painters, sculptors, visual artists, library and public archivist.",
+                "Photographers, film and video camera operators, graphic arts technician and broadcast technicians.",
+                "Performing artists, announcers, broadcasters,interior designers, interior decorators, theater designers.",
+                "Athletes, coaches, sports officials, program leaders and instructors in recreation, sport, and fitness."
+            ]
+
+        }
+
+    ],
+    "hasTable":true,
+    "tables":
+    [
+        {
+            "title":"The self-employed persons are assessed based on selection standards of education, experience, age, language abilities, and adaptability and normally require to meet 35/100 points.",
+            "displayedColumns":["id","standard","points"],
+            "items":
+            [
+                {"id":1,"standard":"Education","points":25},
+                {"id":2,"standard":"Experience","points":35},
+                {"id":3,"standard":"Age","points":10},
+                {"id":4,"standard":"Language (English / French)","points":24},
+                {"id":5,"standard":"Adaptability","points":6}
+            ]
+        },
+        {
+            "title":"Education Points are maxed at 25 and are assigned as below:",
+            "displayedColumns":["id","education","maximumPoints"],
+            "items":
+            [
+                {"id":1,"education":"Master’s Degree/P.H.D. -17 years of full-time study","maximumPoints":25},
+                {"id":2,"education":"Bachelor’s Degree -15 years of full-time study","maximumPoints":22},
+                {"id":3,"education":"Three (3) year diploma, trade certificate or apprenticeship-15 years of full-time study","maximumPoints":22},
+                {"id":4,"education":"Two (2) year diploma, trade certificate or apprenticeship-14 years of full-time study","maximumPoints":20},
+                {"id":5,"education":"One (1) year diploma, trade certificate or apprenticeship-13 years of full-time study","maximumPoints":15},
+                {"id":6,"education":"One (1) year diploma, trade certificate or apprenticeship-12 years of full-time study","maximumPoints":12},
+                {"id":7,"education":"Completed high school (grade 12)","maximumPoints":5}
+
+            ]
+        },
+        {
+            "title":"Experience Points are maxed at 35 and are assigned as below:",
+            "displayedColumns":["id","experience","points"],
+            "items":
+            [
+                {"id":1,"experience":"Five (5) years","points":35},
+                {"id":2,"experience":"Four (4) years","points":30},
+                {"id":3,"experience":"Three (3) years","points":25},
+                {"id":4,"experience":"Two (2) years","points":20}
+            ]
+        },
+        {
+            "title":"Age Points are maxed at 10 and are assigned as below:",
+            "displayedColumns":["id","age","points"],
+            "items":
+            [
+                {"id":1,"age":"16 or under","points":0},
+                {"id":2,"age":17,"points":2},
+                {"id":3,"age":18,"points":4},
+                {"id":4,"age":19,"points":6},
+                {"id":5,"age":20,"points":8},
+                {"id":6,"age":"21-49","points":10},
+                {"id":7,"age":50,"points":8},
+                {"id":8,"age":51,"points":6},
+                {"id":9,"age":52,"points":4},
+                {"id":10,"age":53,",points":2},
+                {"id":11,"age":"54+","points":0}
+
+
+            ]
+        },
+        {
+            "title":"Language Points are maxed at 24 and are assigned as below:",
+            "displayedColumns":["id","proficiency","firstLanguage","secondLanguage"],
+            "items":
+            [
+                {"id":1,"proficiency":"High Proficiency (in all speaking, listening, reading and speaking)","firstLanguage":16,"secondLanguage":8},
+                {"id":2,"proficiency":"Moderate Proficiency (in all speaking, listening, reading and speaking)","firstLanguage":8,"secondLanguage":8},
+                {"id":3,"proficiency":"Basic Proficiency (in all speaking, listening, reading and speaking)","firstLanguage":2,"secondLanguage":2}
+            ]
+        },
+        {
+            "title":"Adaptability Points are maxed at 6 and are assigned as below:",
+            "displayedColumns":["id","partnerEducation","points"],
+            "items":
+            [
+                {"id":1,"partnerEducation":"Secondary School","points":0},
+                {"id":2,"partnerEducation":"One (1) year diploma, trade certificate or apprenticeship-12 years of full-time study","points":3},
+                {"id":3,"partnerEducation":"Two (2) or three (3) year diploma, trade certificate or apprenticeship-14 years of full-time study","points":4},
+                {"id":4,"partnerEducation":"A masers/Ph.D. – 17 years of full –time study","points":5}
+            ]
+        },
+        {
+            "title":"",
+            "displayedColumns":["id","work","points"],
+            "items":
+            [
+                {"id":1,"work":"You or your partner have completed a minimum year of full-time experience on valid work permit status","points":5}
+
+            ]
+        },
+        {
+            "title":"",
+            "displayedColumns":["id","study","points"],
+            "items":
+            [
+                {"id":1,"study":"You or your partner have completed a minimum year of full-time study (must be after 17 years)","points":5}
+                
+            ]
+        },
+        {
+            "title":"",
+            "displayedColumns":["id","relatives","points"],
+            "items":
+            [
+                {
+                    "id":1,
+                    "relatives":"You or your partner have relative – parent, grandparent, child, grandparent,child of a parent, sibling, child of grandparent, aunt or uncle, grandchild of a parent, niece or nephew in Canada as a permanent resident or citizen.",
+                    "points":5
+                }
+                
+            ]
+        }
+        
+    ],
+    "hasFootNote":true,
+    "footNote":"A person must prove that they would be able to sustain themselves in Canada as self-employed."
+}

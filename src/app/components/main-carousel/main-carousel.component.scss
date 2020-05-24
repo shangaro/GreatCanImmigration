@@ -1,0 +1,87 @@
+  .swiper-container{
+    left:0;
+    right:0;
+    overflow:hidden;
+    .swiper-slide {
+        color: #aaa;
+        background-color: #eee;
+        img{
+            width:100%;
+            position:relative;
+            height:510px;
+        }
+        .slide-content{
+            position:absolute;
+            // z-index: 3;
+            // opacity: 0.6;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            display:flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content:center;
+            background-color: rgba(31,31,31,0.6);
+            a{
+              color: #fff;
+              background-color: #3f51b5;
+              border-color: #ff4500;
+              font-size: 16px;
+              padding: 10px 35px;
+              border-radius:0;
+              text-decoration: none;
+              transition:all 1s ease-out;
+              --webkit-transition:all 1s ease-out;
+              --o-transition:all 1s ease-out;
+              --moz-transition:all 1s ease-out;
+
+            }
+            a:hover,a:visited{
+              background-color:#850000;
+            }
+            h1{
+                font-size: 48px;
+                text-align: center;
+                color: #fff;
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
+            h3{
+                font-size: 36px;
+                text-align: center;
+                color: #fff;
+                margin-bottom: 30px;
+                font-weight: 300;
+                letter-spacing: 2px;
+            }
+            .mat-raised-button
+            {
+                text-decoration: none;
+
+            }
+        }
+       
+       
+      }
+
+    
+  }
+  
+  
+  .swiper-slide-active {
+    color: #fff;
+    background-color: #aaa;
+  }
+  @media screen and (max-width:767px){
+    .swiper-slide img{
+        height:240px;
+    }
+  }
+  @media screen and (max-width:575px){
+    .swiper-slide img{
+        height:120px;
+
+    }
+  }
+      
+

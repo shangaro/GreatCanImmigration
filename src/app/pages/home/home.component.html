@@ -1,0 +1,166 @@
+<!-- side nav menu for small devices and horizontal menu for larger devices -->
+
+<!-- feature-screen -->
+<app-main-carousel></app-main-carousel>
+
+<section id="CATEGORIES">
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-12 section-title">
+                <h2>Our Services</h2>
+                <p>We provide following services </p>
+            </div>
+        </div>
+        <div class="row card-container categories">
+            <div class="col-md-3 col-lg-2 col-lg-offset-2 card category" fxLayout="column" *ngFor="let category of categories">
+                    <a mat-button  [routerLink]="['../services',category.id]" routerLinkActive="router-link-active">
+                        <img [src]="category.image" alt="Category">
+                        <p><b>{{category.title}}</b></p>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="ABOUT">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-title">
+                <h2>ABOUT US</h2>
+                <p>GreatCan Immigration Services Inc. is a leading Canadian immigration services firm that provides immigration services for people looking to come to Canada. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="about-img img-fluid "src="../../../assets/images/why-choose-us.png" alt="">
+            </div>
+            <div class="col-md-6 section-title">
+                <h2><b>Why choose us?</b></h2>
+                <p>Our Immigration Consultants guide you on ways you can come to Canada. Our consultants are fully authorized as Registered Canadian Immigration Consultant (RCIC) and are active members with the Immigration Consultants of Canada Regulatory Council (ICCRC).</p>
+                <p>An experienced RCIC can guide you with ways to achieve your immigration goal.Since RCIC’s membership is governed by immigration laws, RCICs are obliged to abide by professional conduct and these are very similar to that of lawyers conduct.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="REASONSTOHIRE">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 section-title">
+                <h2>Reasons to Hire us</h2>
+                <p>Registered Canadian Immigration Consultant (RCIC) are members in good standing with Immigration Consultants of Canada Regulatory Council (ICCRC). ICCRC is a regulatory body authorized by Canada immigration rules and regulations that regulates Immigration and citizenship consultants and international student’s advisors. Members of ICCRC can advise the public on Canadian immigration matters.</p>
+                <p>Since RCIC’s membership is governed by immigration laws, RCICs are obliged to abide by professional conduct and these are very similar to that of lawyers conduct.</p>
+            </div>
+        </div>
+
+        <div class="row reasons-left">
+            <div class="col-md-4">
+                <div class="left-feature-item">
+                    <!-- left feature item 1 -->
+                    <h3> Personalized assistance</h3>
+                    <p>We understand your requirement first and then guide you on how you can achieve your immigration goal.</p>
+                </div>
+                <!-- left-feature-item 2 -->
+                <div class="left-feature-item">
+                    <h3>Save time</h3>
+                    <p>Doing it all, researching, filling forms, collecting documents, etc. takes a lot of time. An RCIC will provide all the checklist and makes the immigration journey easier.</p>
+                </div>
+                <!-- left-feature-item 3 -->
+                <div class="left-feature-item">
+                    <h3>Licensed with the regulatory body</h3>
+                    <p>A regulatory body makes sure that members follow all rules and regulations as per the regulatory body. RCICs follow stricter code of conduct and have to abide by immigration laws of Canada. You will have peace in mind knowing our RCICs are active members with ICCRC.</p>
+                </div>
+               
+
+            </div>
+            <div class="col-md-4 reasons-mid"fxLayout="column" fxLayoutAlign="space-between center">
+                <img class="img-fluid reasons-img" src="../../../assets/images/flags/ca.svg" alt="Reasons to hire us" fxFlex="70">
+                <!-- left feature item 4 -->
+                <div class="center-feature-item">
+                    <h3>Great paperwork</h3>
+                    <p>RCIC take great care of the paperwork. They make sure all documents are presented in a good format in front of immigration officers so they can make their decisions based on provided facts.</p>
+                </div>
+            </div>
+            <div class="col-md-4 reasons-right">
+                <!-- right feature item 1 -->
+                <div class="right-feature-item">
+                    <h3>Increase the chances of your success</h3>
+                    <p>With the right representation and detailed paperwork, immigration officer gets all evidence of proof in an organized format and this helps to increase success for your immigration.</p>
+                </div>
+                <div class="right-feature-item">
+                    <h3>Direct communication with immigration authorities</h3>
+                    <p>RCIC can communicate with immigration authorities on your behalf at any time and can update your profile on demand.</p>
+                </div>
+                <div class="right-feature-item">
+                    <h3>Honest assessment and advice</h3>
+                    <p>RCICs will provide great assessment and provide reliable and authentic immigration advice.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="TEAMS" class="author">
+    <div class="container" fxLayout="row nowrap">
+        <div class="row">
+            <div class="col-md-3">
+                <img class="img img-fluid author-img" src="../../../assets/images/author.jpg" alt="Author">
+            </div>
+            <div class="col-md-9 author-content">
+                <p>Mr. Sujit Paudyal (R533123) has over six (6) years of experience in Canadian Immigration.</p>
+                <p>He has completed the Immigration Practitioner Diploma: Laws, Policies, and Procedures from CSIC eAcademy. He has a Bachelor’s degree in Technology (B.Tech.) from Memorial University of Newfoundland, NL Canada. He has an Advanced Diploma in Software Development and Network Engineering from Sheridan College, Brampton, ON Canada.</p>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="COUNTER">
+    <div class="counter-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 counter-item">
+                    <mat-icon class="mat-icon-md">done_all</mat-icon>
+                        <div class="steps">
+                            <span [CountTo]="100" [from]="0" [duration]="4"></span>
+                            <span>+</span>
+                        </div>
+                        <p>Process Completed</p>
+                    
+                </div>
+                <div class="col-md-3 counter-item">
+                    <mat-icon class="mat-icon-md">tag_faces</mat-icon>
+                    <div class="steps">
+                        <span [CountTo]="30" [from]="0" [duration]="4"></span>
+                        <span>+</span>
+                    </div>
+                    <p>Customers Satisfied</p>
+                </div>
+    
+                <div class="col-md-3 counter-item">
+                    <mat-icon class="mat-icon-md">perm_contact_calendar</mat-icon>
+                    <div class="steps"></div>
+                        <span [CountTo]="57" [from]="0" [duration]="4"></span>
+                        <span>+</span>
+                    <p>Consulted</p>
+                </div>
+    
+                <div class="col-md-3 counter-item">
+                    <mat-icon>autorenew</mat-icon>
+                    <div class="steps">
+                        <span [CountTo]="38" [from]="0" [duration]="4"></span>
+                        <span>+</span>
+                    </div>
+                    <p>Reconsidered</p>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</section>
+
+

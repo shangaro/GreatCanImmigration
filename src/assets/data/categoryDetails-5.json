@@ -1,0 +1,21 @@
+{
+    "id":5,
+    "title":"Express Entry",
+    "subTitle":"This immigration program is for skilled workers who want to come to Canada as a P.R.",
+    "listCount":1,
+    "hasAccordion":true,
+    "accordion":
+    {
+        "title":"Express Entry covers three programs:",
+        "panels":
+        [
+            {"header":"Federal Skilled Worker Program (FSWP)","details":"This stream is for candidates who have worked in NOC skill level 0, A, or B and meets the popular 67 points criteria."},
+            {"header":"Federal Skilled Trades Program (FSTP)","details":"This stream is for the candidate who has two years of full-time work experiences in a skilled trade."},
+            {"header":"Canadian Experience Class (CEC)","details":"This stream is for candidates who have worked at least a year in Canada in NOC skill level 0, A or B."}
+        ]
+
+
+    },
+    "description":"Express Entry is an online platform that collects a pool of skilled workers with different skill category. Each candidate gets a comprehensive ranking system (CRS) score. The candidates with the highest CRS score gets an invitation to apply (ITA) to apply to Canada as a P.R. Also many times, provinces search for talents in this pool.Factors that qualifies you for express entry are educational Level, language abilities (English/French), work experience, age, either you have a job offer in Canada, your partner’s education, language abilities or work experience, education in Canada, relative in Canada, etc.Kindly call us for one-one consultation to see if you are eligible to apply under Express Entry."
+
+}
